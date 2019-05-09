@@ -1,0 +1,20 @@
+{
+  "name": "mmunoz/tibia",
+  "description": "Tibia Helper",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "MMunoz",
+      "email": "mmunoz@mmunoz.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MMunoz\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.2@dev"
+  }
+}
